@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portafolio - Fabián Díaz Arteaga</title>
+    <meta name="description" content="Portafolio de Fabián Díaz Arteaga, desarrollador Front-End. Proyectos de maquetación web con HTML, CSS, Flexbox, Grid y JavaScript básico.">
+    <meta name="author" content="Fabián Díaz Arteaga">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav aria-label="Navegación principal">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<header>
+    <h1>Fabián Díaz Arteaga</h1>
+    <p>Desarrollador Web Front-End</p>
+</header>
+
+<main>
+    <section id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+        <h2 id="titulo-sobre-mi">Sobre mí</h2>
+        <p>
+            Soy Fabián Díaz Arteaga, desarrollador web Front-End enfocado en crear interfaces modernas, optimizadas y funcionales.
+            Trabajo principalmente con HTML, CSS y JavaScript, aplicando buenas prácticas de estructura, semántica y rendimiento.
+            Me centro en construir experiencias digitales claras, rápidas y orientadas al usuario, combinando buenas prácticas de diseño
+            con código limpio y escalable.
+            Tengo experiencia desarrollando layouts responsivos, organizando estilos con metodologías claras y creando componentes reutilizables
+            que facilitan el mantenimiento del código. Me interesa la accesibilidad, la optimización visual y la integración fluida entre diseño y desarrollo.
+            Busco que cada sitio sea intuitivo y responda correctamente en cualquier dispositivo. Mi objetivo es crecer profesionalmente dentro del desarrollo Front-End,
+            colaborar con equipos donde pueda aportar valor y seguir construyendo productos digitales que generen impacto real.
+        </p>
+    </section>
+
+    <section id="proyectos" aria-labelledby="titulo-proyectos">
+        <h2 id="titulo-proyectos">Proyectos</h2>
+
+        <div class="proyectos-grid">
+            <article class="proyecto" aria-labelledby="p1-titulo">
+                <h3 id="p1-titulo">Proyecto 1</h3>
+                <p>Landing page de servicios de desarrollo web. Maquetación responsiva usando Flexbox y CSS Grid.</p>
+
+                
+               <a href="./proyecto-1-servicios-web/index.html" target="_blank" rel="noopener"> Ver proyecto 1</a>
+            </article>
+
+            <article class="proyecto" aria-labelledby="p2-titulo">
+                <h3 id="p2-titulo">Proyecto 2</h3>
+                <p>Landing básica adaptable a móviles. Demuestra estructura HTML semántica y estilos con CSS.</p>
+
+                
+                <a href="./proyecto-2-landing-basica/index.html" target="_blank" rel="noopener">Ver proyecto 2</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="titulo-contacto">
+        <h2 id="titulo-contacto">Contacto</h2>
+
+        <div class="contacto-flex">
+            <p>
+                <span>Email:</span>
+                <a href="mailto:arteagadiazfabian@gmail.com">arteagadiazfabian@gmail.com</a>
+            </p>
+
+            <p>
+                <span>WhatsApp:</span>
+                <a href="https://wa.me/524412767795" target="_blank" rel="noopener">
+                    +52 441 276 7795
+                </a>
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © 2025 - Fabián Díaz Arteaga
+</footer>
+
+</body>
+</html>
